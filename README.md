@@ -1,97 +1,201 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby's default starter
-</h1>
+# Tony's Bistro
 
-Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+To the Full-Stack Software Development Team,
+We have recieved a request to confirm a contract from a business man & a friend,
+Mr Romano has requested a complete revamp of his existing static website, Mr Romano has been operating his trade & his business for over 15 years, his business status has maintained its precense in the bustling town in which it resides, this town is now the biggest in the county of Cork, to maintain his presence in the forth coming future for himself & his family, he has wisley chosen to establish himslef with an online presence, Mr Roamano is an asute business man, so he has a very good idea of what features he excpects in his website.
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
+This is great news ofr our company & even better opertunity to increase our online business presence & portfolio, this will no doubht generate future business.
 
-## 🚀 Quick start
+I purpose we first utlise our most recent bootcamop venture into Gatsby.js & all of its amazing features, we can also show off our front-end - development skills, this however might not be the final project, as Mr Romano is an old freind I will be offering him the best of development from our company Rock Steady Software, so the seconadry option will be to build another full stack resturant site using the teams yeras of expirence in the High Level Frame Work Django.
 
-1.  **Create a Gatsby site.**
+Why do this the team will most definitly ask ?
+We will do this because of the the present change & upgardes to headless CMS's, this new & amazing technology needs to be tested & comopared to our currents tech stacks, but first we will build with gatsby.
 
-    Use the Gatsby CLI to create a new site, specifying the default starter.
+Our customer Mr Romano has already stated a few aspects of the technonlogy in which we are using, such as,
+The speed of the website,
+He will need off-line access for his punters,
+SEO is a must for Goolge,
+Image optimisation will be a key selling point for his amazing meals,
+Mr Romano has requested a user friendly blog that he can receive training for himslef & his staff for up to date blog posts,
+A menu filter system that can be accessed by the customers,
+A reservation system,
+Mr Romano is also very interested to see the differnce in his new mobile website comapred to his prevoius one since it has 0 responsiveness,
+A user subscribtion service for new & exsiting customers,
+Migration of current domain name,
 
-    ```sh
-    # create a new Gatsby site using the default starter
-    gatsby new my-default-starter https://github.com/gatsbyjs/gatsby-starter-default
-    ```
+## Projects first branch "boiler-plate-house-keeping-local-environ-project-spec-setup"
 
-1.  **Start developing.**
+B-P-H-K-L-E-P-S-S.md
 
-    Navigate into your new site’s directory and start it up.
+## Projects second branch "netifly-deploy"
 
-    ```sh
-    cd my-default-starter/
-    gatsby develop
-    ```
+I am choosing to deploy the projet to netfily's service for the reason of continoues intergration & development, this means that each new branch that I will version control to Git-Hub will be automatically deployed to Netifly, in turn if & when there is bugs in my project I will be able to debug branch by branch.
 
-1.  **Open the source code and start editing!**
+## Version Control Workflow
 
-    Your site is now running at `http://localhost:8000`!
+When on Master Branch,
+Create a new branch,
+How to Switch branche's'
+How to Merge Branche's,
 
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
+1 How to to create a new branch,
 
-    Open the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+Run = git branch == to list all branche's,
+Run = git status == to check that I am on a working clean branch,
+Run = git reset == to unstage a file in the staging area [example = git reset app/index.html]
 
-## 🧐 What's inside?
+2 How to to switch between branch's,
 
-A quick look at the top-level files and directories you'll see in a Gatsby project.
+Run = git branch == local-environ-project-spec-setup to create a new branch,
+Run = git checkout == local-environ-project-spec-setup to switch to the feature branch,
+Run = git checkout master to switch between branch's,
 
-    .
-    ├── node_modules
-    ├── src
-    ├── .gitignore
-    ├── .prettierrc
-    ├── gatsby-browser.js
-    ├── gatsby-config.js
-    ├── gatsby-node.js
-    ├── gatsby-ssr.js
-    ├── LICENSE
-    ├── package-lock.json
-    ├── package.json
-    └── README.md
+3 how to merge a new branch
 
-1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
+Run = git checkout == local-environ-project-spec-setup to switch between local branche's
+Run = git checkout master when on master branch to MERGE BRANCHE'S
+Run = git merge {NAME OF BRANCH} at this stage the master branch is still checked out,
 
-2.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
+4 how to push all branch's
 
-3.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+Run = git push origin master == to merge the change on github
 
-4.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
+## UX
 
-5.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.org/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
+Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-6.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.org/docs/gatsby-config/) for more detail).
+In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 
-7.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.org/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
+- As a user type, I want to perform an action, so that I can achieve a goal.
 
-8.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.org/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
+This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
-9.  **`LICENSE`**: Gatsby is licensed under the MIT license.
+## Features
 
-10. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
+In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+A Home Page,
+A About Page,
+A Blog Page,
+A E-Commerce payment Gateway,
+A Contact Page,
+A Menu Page,
 
-11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
+### Existing Features
 
-12. **`README.md`**: A text file containing useful reference information about your project.
+- Feature 1 - allows users X to achieve Y, by having them fill out Z
+- ...
 
-## 🎓 Learning Gatsby
+For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
+In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
+### Features Left to Implement
 
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
+- Another feature idea
 
-## 💫 Deploy
+## Data Driven Development Primary Technologies Used
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+- [Gatsby.js](https://gatsby.com)
 
-<!-- AUTO-GENERATED-CONTENT:END -->
+  - The project uses **Gatsby** for the intial static site bioler plate setup, it's own CMS & webpack, react.js & modern JavaScript,
+    The advantages of using Gatsby are plentyfull, such as the use of NPM, the generation of the application with the Gatsby.CLI, Gtasby also uses a package.json file i conjuntin with Node.js,
+
+    Gatsby also ships with its own internal server & build production commands for deployment,
+
+    With it highly simplfied folder structure which can be viewed in the GATSBY-README.md file in the trunk of the projects folder,
+    Gatsby also uses styled components & seeing that the theme of the project with flow throughtout, it will be a massive time saver,
+
+    Gatsby also utilises hot reloading,
+
+    The use of RFC & RCC for
+
+    Very fast new page's creation,
+
+    No routing of static page's,
+
+    Importing of the site's menu & creation of menu component & export of menu component,
+
+    Importing of page's & features into the layout folder for site consistency,
+
+    Built in SEO,
+
+* [Graph-QL](https://graph-QL.com)
+
+  - The project uses **graph-QL** for the front-end blog spot, built with Mark-Down, the schema will consist of the Date, Title & Author,
+    I will connect with a plugin to Query a blog post form the system,
+
+    I will also use the Gatsby-Transform-Reform plugin continuation of of MD for HTML rendering
+
+- [Contentfull](https://contentfull.com)
+
+  - The project uses **contentfull** for hosting the frontend data,
+
+- [Netifly](https://Netifly.com)
+
+  - The project uses **Netifly** for continueous development & intergration,
+
+- [Github](https://github.com)
+
+  - The project uses **Github** for version control & auto deployment to Netilfy,
+
+- [Flipcart](https://flipcart.com)
+
+  - The project uses **Flipcart** for ecommerce payments,
+
+- [Formspree](https://Formspree.com)
+
+  - The project uses **Formspree** for e-mail services,
+
+## Data Driven Development Secondary Technologies Used
+
+- [Node.js & NPM](https://node.js.com)
+
+- The project uses **node.js & NPM** for package managment,
+
+## Testing
+
+In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+
+Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+
+For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+
+1. Contact form:
+   1. Go to the "Contact Us" page
+   2. Try to submit the empty form and verify that an error message about the required fields appears
+   3. Try to submit the form with an invalid email address and verify that a relevant error message appears
+   4. Try to submit the form with all inputs valid and verify that a success message appears.
+
+In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+
+You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+
+If this section grows too long, you may want to split it off into a separate file and link to it from here.
+
+## Netifly Deployment
+
+I am choosing to deploy the projet to netfily's service for the reason of continoues intergration & development, this means that each new branch that I will version control to Git-Hub will be automatically deployed to Netifly, in turn if & when there is bugs in my project I will be able to debug branch by branch.
+
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+
+In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+
+- Different values for environment variables (Heroku Config Vars)?
+- Different configuration files?
+- Separate git branch?
+
+In addition, if it is not obvious, you should also describe how to run your code locally.
+
+## Credits
+
+### Content
+
+- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+
+### Media
+
+- The photos used in this site were obtained from ...
+
+### Acknowledgements
+
+- I received inspiration for this project from X
