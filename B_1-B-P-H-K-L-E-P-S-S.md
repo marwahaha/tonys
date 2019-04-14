@@ -1,3 +1,7 @@
+## Projects first branch "B_1-boiler-plate-house-keeping-local-environ-project-spec-setup"
+
+B_1-B-P-H-K-L-E-P-S-S.md
+
 ## House keeping done on projects file structure
 
 Removed page-2.js, then went to layout.js & removed the header & Graph-QL import'S & removed component,

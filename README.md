@@ -23,14 +23,6 @@ Mr Romano is also very interested to see the differnce in his new mobile website
 A user subscribtion service for new & exsiting customers,
 Migration of current domain name,
 
-## Projects first branch "boiler-plate-house-keeping-local-environ-project-spec-setup"
-
-B-P-H-K-L-E-P-S-S.md
-
-## Projects second branch "netifly-deploy"
-
-I am choosing to deploy the projet to netfily's service for the reason of continoues intergration & development, this means that each new branch that I will version control to Git-Hub will be automatically deployed to Netifly, in turn if & when there is bugs in my project I will be able to debug branch by branch.
-
 ## Version Control Workflow
 
 When on Master Branch,
