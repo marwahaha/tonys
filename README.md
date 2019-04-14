@@ -46,8 +46,8 @@ Run = git reset == to unstage a file in the staging area [example = git reset ap
 
 2 How to to switch between branch's,
 
-Run = git branch == local-environ-project-spec-setup to create a new branch,
-Run = git checkout == local-environ-project-spec-setup to switch to the feature branch,
+Run = git branch == boiler-plate-house-keeping-local-environ-project-spec-setup = to create a new branch,
+Run = git checkout == boiler-plate-house-keeping-local-environ-project-spec-setup = to switch to the feature branch,
 Run = git checkout master to switch between branch's,
 
 3 how to merge a new branch
@@ -89,15 +89,12 @@ For some/all of your features, you may choose to reference the specific project 
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
-### Features Left to Implement
-
-- Another feature idea
 
 ## Data Driven Development Primary Technologies Used
 
 - [Gatsby.js](https://gatsby.com)
 
-  - The project uses **Gatsby** for the intial static site bioler plate setup, it's own CMS & webpack, react.js & modern JavaScript,
+  - The project uses **Gatsby** for the intial static site bioler plate setup, it's own CMS & webpack, react.js & modern     JavaScript,
     The advantages of using Gatsby are plentyfull, such as the use of NPM, the generation of the application with the Gatsby.CLI, Gtasby also uses a package.json file i conjuntin with Node.js,
 
     Gatsby also ships with its own internal server & build production commands for deployment,
