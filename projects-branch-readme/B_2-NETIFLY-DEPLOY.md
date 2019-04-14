@@ -62,7 +62,13 @@ Icons tested in the browser & successful
 ## Navbar Component
 
 I will create a Global folder inside of the components folder, in turn giving site wide access to the Navbar,
-I will create another folder inside of the global folder in which the Nvagbr will reside, I will then create the navbar.js file which will produce the navbar syntax code
+I will create another folder inside of the global folder in which the Nvagbr will reside, I will then create the navbar.js file which will produce the navbar syntax code,
+
+I will also create a package.json file inside of the navbar folder for the reason of not importing directly from the nav bar, the package.json will declare the mian file as the navabar file, this will detyermine the import as a index.js, the oppiste to the default,
+
+I will then move to the layout.js & import the navbar file
+
+Created the navbar declaration
 
 
 
