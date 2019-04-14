@@ -23,14 +23,6 @@ Mr Romano is also very interested to see the differnce in his new mobile website
 A user subscribtion service for new & exsiting customers,
 Migration of current domain name,
 
-## Projects first branch "boiler-plate-house-keeping-local-environ-project-spec-setup"
-
-B-P-H-K-L-E-P-S-S.md
-
-## Projects second branch "netifly-deploy"
-
-I am choosing to deploy the projet to netfily's service for the reason of continoues intergration & development, this means that each new branch that I will version control to Git-Hub will be automatically deployed to Netifly, in turn if & when there is bugs in my project I will be able to debug branch by branch.
-
 ## Version Control Workflow
 
 When on Master Branch,
@@ -82,8 +74,8 @@ For some/all of your features, you may choose to reference the specific project 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 //gatsby.com)
 
-  - The project uses **Gatsby** for the intial static site bioler plate setup, it's own CMS & webpack, react.js & modern     JavaScript,
-    The advantages of using Gatsby are plentyfull, such as the use of NPM, the generation of the application with the Gatsby.CLI, Gtasby also uses a package.json file i conjuntin with Node.js,
+  - The project uses **Gatsby** for the intial static site bioler plate setup, it's own CMS & webpack,     react.js & modern JavaScript,
+    The advantages of using Gatsby are plentyfull, such as the use of NPM, the generation of the application with the Gatsby.CLI, Gtasby also uses a package.json file in conjuntin with Node.js,
 
     Gatsby also ships with its own internal server & build production commands for deployment,
 
