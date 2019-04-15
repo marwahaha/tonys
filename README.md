@@ -13,7 +13,7 @@ We will do this because of the the present change & upgardes to headless CMS's, 
 
 Our customer Mr Romano has already stated a few aspects of the technonlogy in which we are using, such as,
 The speed of the website,
-He will need off-line access for his punters,
+He will need off-line access for his punters,1tothenewlife
 SEO is a must for Goolge,
 Image optimisation will be a key selling point for his amazing meals,
 Mr Romano has requested a user friendly blog that he can receive training for himslef & his staff for up to date blog posts,
