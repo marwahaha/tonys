@@ -70,6 +70,59 @@ I will then move to the layout.js & import the navbar file
 
 Created the navbar declaration
 
+## Navbar Header
+Created NavbarHeader.js file for content
+
+## NavbarLinks
+Created NavbarLinks.js for the navugation menu
+
+## Imported new components into navbar.js
+
+Placed the three navbar components for rendering 
+
+Renderd to the browser for testing, testing in the browser was succesfull
+
+Now I can work on each component
+
+## The toggle button & styling
+
+I will need to incorprate the new features in the navbar component
+
+Firstly I need to setup the state & the navbar component Methods
+
+Apply media query for responsiveness with flexbox
+
+Tested in the browser with success 
+
+## Header component
+
+ Insert logo into project
+
+ Logo placed successsfully
+
+ Incorprate Link
+
+ ## Styled Components with css var's setup
+
+Setup mainYellow css var from utils
+
+Menu toggle tested in the browser
+
+Success for the toggle button on the media query
+
+## Navbar Links
+
+Imported the relevent imports into Navbarlink
+
+Once again I will create the state
+
+Created state array for the menu links & passed the method in to the value's
+
+After logic for the menu links are set it is time to style the menu
+
+## Nvabar Link css
+
+
 
 
 
