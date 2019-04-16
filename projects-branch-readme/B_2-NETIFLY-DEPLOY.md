@@ -122,6 +122,10 @@ After logic for the menu links are set it is time to style the menu
 
 ## Nvabar Link css
 
+I will now style our menu with the use of the js utils folder
+
+Menu tested in the browser & it is succesfull
+
 
 
 
