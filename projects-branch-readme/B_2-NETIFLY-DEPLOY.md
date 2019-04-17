@@ -120,7 +120,40 @@ Created state array for the menu links & passed the method in to the value's
 
 After logic for the menu links are set it is time to style the menu
 
-## Nvabar Link css
+## Navbar Link css
+
+I will now style our menu with the use of the js utils folder
+
+Menu tested in the browser & it is succesfull
+
+## Navbar Link media Query's & Transtions
+
+Needed to apply media query's for the toggle menu
+
+Src of code in generated from the styles.js file which is loaded with the preconfigerd transObject
+
+Added auto value to css
+
+# Navbar Link Icons & Transtions
+
+Src of code in generated from the styles.js file which is loaded with the preconfigerd transFunction
+
+Imported styled components once again
+
+Imported Icons from gatsby
+
+Created state array & within the array will be the Object & the object will be repersenting whatever Icon is chosen
+
+Added css for icon color tranasition by targeting className in Navbaricon.js
+
+Rendered the Icon with IconWrapper component & applied the styled component & tested in the browser which was successfull
+
+
+
+
+
+
+
 
 
 
