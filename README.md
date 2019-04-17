@@ -13,13 +13,13 @@ We will do this because of the the present change & upgardes to headless CMS's, 
 
 Our customer Mr Romano has already stated a few aspects of the technonlogy in which we are using, such as,
 The speed of the website,
-He will need off-line access for his punters,1tothenewlife
+He will need off-line access for his punters,
 SEO is a must for Goolge,
 Image optimisation will be a key selling point for his amazing meals,
 Mr Romano has requested a user friendly blog that he can receive training for himslef & his staff for up to date blog posts,
 A menu filter system that can be accessed by the customers,
 A reservation system,
-Mr Romano is also very interested to see the differnce in his new mobile website comapred to his prevoius one since it has 0 responsiveness,
+Mr Romano is also very interested to see the difference in his new mobile website comapred to his prevoius one since it has 0 responsivenes,
 A user subscribtion service for new & exsiting customers,
 Migration of current domain name,
 
@@ -66,26 +66,87 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 ### Existing Features
 
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future
+#### The Home-Page
+- Main menu naviagation for the entire site
+- Mian logo for navigation & Aesthtics
+- Call to action on front main banner
+- Mian Menu to navigate to the menu page
+- Footer with a aafcebook socail link
+#### The About-Page
+- Information about the website & a Gallery of dish's
+- 
+#### The SEO-Page
+-
+-
+#### The Contact-Page
+-
+-
+#### The Blog-Page
+-
+-
+#### The E-commerce-Shop
+-
+-
+#### The E-commerce-Cart
+-
+-
+#### The Back-End _VS_ The Front-End
+-
+-
+ 
 
 ### Reasons for using gatsby
 
-The project uses **Gatsby** for the intial static site bioler plate setup, it's own CMS & webpack,     react.js & modern JavaScript,
+The project uses **Gatsby** for the intial static site bioler plate setup, it's own CMS, webpack,     react.js & modern JavaScript,
 
-The advantages of using Gatsby are plentyfull, such as the use of NPM, the generation of the application with the Gatsby.CLI, Gtasby also uses a package.json file in conjuntin with Node.js,
+The advantages of using Gatsby are plentyfull, such as the use of NPM, the generation of the application with the Gatsby CLI, Gatsby also uses a package.json file in conjuntin with Node.js,
 
 Gatsby also ships with its own internal server & build production commands for deployment,
 
-## Technologies Used
+A highly simplified folder structure
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+Hot reloading
 
-- [JQuery](https://jquery.com)
+The use of the short hand RCC, RFC & TAB which genearates function based & class based components
+
+Styled components & Component based styling
+
+Highly fast pages's ceation & no routing of static pages
+
+The use of importing & exporting of projects gatsby libaries
+
+Inline CSS, Global CSS, & Component CS
+
+### Reasons for using graphQL & graphQLY Data Aspects
+
+
+
+
+
+## Tech Stack Web Stack used in this data Driven Developement
+
+- [Gatsby.js](https://jquery.com)
+    - The project uses **JQuery** to simplify DOM manipulation.
+
+- [GraphQL](https://jquery.com)
+    - The project uses **JQuery** to simplify DOM manipulation.
+
+- [Contentfull](https://jquery.com)
+    - The project uses **JQuery** to simplify DOM manipulation.
+
+- [Netifly](https://jquery.com)
+    - The project uses **JQuery** to simplify DOM manipulation.
+
+- [GitHub](https://jquery.com)
+    - The project uses **JQuery** to simplify DOM manipulation.
+
+- [Node&NPM](https://jquery.com)
+    - The project uses **JQuery** to simplify DOM manipulation.
+
+- [React.js](https://jquery.com)
+    - The project uses **JQuery** to simplify DOM manipulation.
+
+- [HTML-5-&-CSS-3](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
 
 
@@ -124,12 +185,22 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The text for section Y was 
 
 ### Media
 - The photos used in this site were obtained from ...
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- Gatsby Doc's
+- Flipcart Doc's
+- Contentfull Doc's
+- Formspree Doc's
+- Netifly Doc's
+- GraphQL Doc's
+- Freecode Camp
+- Meduim
+- Traversity Media
+- Stack Overflow
+- React Doc's
 
