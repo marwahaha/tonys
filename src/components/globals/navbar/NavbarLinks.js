@@ -52,7 +52,7 @@ const LinkWrapper = styled.ul`
     text-decoration: none;
     padding: 0.5rem 1rem 0.5rem 1rem;
     color: ${styles.colors.mainGrey};
-    font-weight: 700;
+    font-weight: 300;
     text-transform: capitalize;
     cursor: pointer;
     ${styles.transDefault};
