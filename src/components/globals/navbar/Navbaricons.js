@@ -32,29 +32,17 @@ export default class NavbarIcons extends Component {
 
 const IconWrapper = styled.div`
   .icon {
-<<<<<<< HEAD
-    margin-right: 2rem;
-    font-size: 1.5rem;
-=======
     // margin-right: 2rem;
     font-size: 1.3rem;
->>>>>>> pages-homeheader-banner-info-sections
     cursor: pointer;
     ${styles.transFunction()};
   }
 
   .facebook-icon {
-<<<<<<< HEAD
-    color: #d2aa5c;
-  }
-  .icon:hover {
-    color: ${styles.colors.mainYellow2};
-=======
     color: #c76327;
   }
   .icon:hover {
     color: ${styles.colors.mainYellow};
->>>>>>> pages-homeheader-banner-info-sections
   }
   display: none;
   @media (min-width: 768px) {
