@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import logo from '../../../images/tonylogo.png'
+import logo from '../../../images/tonylogo1.png'
 import { FaAlignRight } from 'react-icons/fa'
 import styled from 'styled-components'
 import { styles } from '../../../utils'
