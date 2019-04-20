@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import * as styles from './styles'
 import { HomeHeader, PageHeader } from './Header'
 import { Banner } from './Banner'
@@ -15,7 +14,6 @@ export {
   Title,
   SectionButton,
 }
-=======
 import React from 'react'
 import { Link } from 'gatsby'
 
@@ -40,4 +38,3 @@ const IndexPage = () => (
 )
 
 export default IndexPage
->>>>>>> pages-homeheader-banner-info-sections
