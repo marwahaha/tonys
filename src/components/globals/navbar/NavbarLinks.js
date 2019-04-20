@@ -43,6 +43,7 @@ export default class NavbarLinks extends Component {
     )
   }
 }
+
 const LinkWrapper = styled.ul`
   li {
     list-style-type: none;
@@ -52,7 +53,11 @@ const LinkWrapper = styled.ul`
     text-decoration: none;
     padding: 0.5rem 1rem 0.5rem 1rem;
     color: ${styles.colors.mainGrey};
+<<<<<<< HEAD
     font-weight: 300;
+=======
+    font-weight: 700;
+>>>>>>> pages-homeheader-banner-info-sections
     text-transform: capitalize;
     cursor: pointer;
     ${styles.transDefault};
@@ -62,6 +67,7 @@ const LinkWrapper = styled.ul`
       padding: 0.5rem 1rem 0.5rem 1.3rem;
     }
   }
+<<<<<<< HEAD
   
   height: ${props => (props.open ? '152px' : '0px')};
   overflow: hidden;
@@ -71,6 +77,17 @@ const LinkWrapper = styled.ul`
   @media (min-width: 768px) {
     
     height: auto;
+=======
+
+  height: ${props => (props.open ? '152px' : '0px')};
+  overflow: hidden;
+  ${styles.transObject({ time: '1s' })};
+
+  @media (min-width: 768px) {
+    //
+    height: auto;
+    //
+>>>>>>> pages-homeheader-banner-info-sections
     display: flex;
     margin: 0 auto;
     .nav-link:hover {

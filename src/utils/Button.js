@@ -8,7 +8,7 @@ const BannerButton = styled.button`
   text-transform: uppercase;
   font-size: 1.5rem;
   letter-spacing: 0.5rem;
-  font-weight: 700;
+  font-weight: 500;
   ${styles.border({ color: `${styles.colors.mainWhite}` })};
   margin-top: 1rem;
   ${styles.transition({})};

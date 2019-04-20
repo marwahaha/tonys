@@ -10,5 +10,11 @@ I also created the components
 
 My first port of call was to generate a new page by creating a new file in the page's folder,
 
+<<<<<<< HEAD
 Next was to generate a banner header for each seperate page
 >>>>>>> b6688a12cc7c50893f0b4e5e94caeb4a2516f8cb
+=======
+next was to
+
+Next was to generate a banner header for each seperate page
+>>>>>>> pages-homeheader-banner-info-sections
