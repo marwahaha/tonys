@@ -15,6 +15,7 @@ export default class Navbar extends Component {
   }
   render() {
     return (
+<<<<<<< HEAD:src/components/globals/navbar/Navbar.js
           <NavWrapper> 
            <NavbarHeader handleNavbar={this.handleNavbar} />
 
@@ -22,6 +23,13 @@ export default class Navbar extends Component {
 
           <Navbaricons />
          </NavWrapper>
+=======
+    <NavWrapper> 
+        <NavbarHeader handleNavbar={this.handleNavbar} />
+        <NavbarLinks navbarOpen={this.state.navbarOpen} />
+      <Navbaricons />
+    </NavWrapper>
+>>>>>>> footer-gallery-business-logic-menu:src/components/Global/navbar/Navbar.js
     ) 
   }
 }
