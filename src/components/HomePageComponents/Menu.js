@@ -7,7 +7,7 @@ import { Link } from 'gatsby'
 export default function Menu() {
   return (
     <Section>
-      <Title title="featured items" message="A Taste Of Brillance" />
+      <Title title="Food Display" message="A Taste Of Brillance" />
       <ProductList>
         <StaticQuery
           query={graphql`

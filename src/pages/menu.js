@@ -8,7 +8,7 @@ export default function about() {
     <Layout>
       <SEO title="Menu" />
       <PageHeader img={img}>
-        <Banner title="our menu" subtitle={`choose from the amazing menu`} />
+        <Banner title="our menu" subtitle={`Choose from the amazing menu`} />
       </PageHeader>
     </Layout>
   )

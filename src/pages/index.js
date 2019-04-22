@@ -11,15 +11,15 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <HomeHeader img={img}>
-      <Banner title="Tony's" subtitle=" main street, carrigaline, cork, ireland ">
+      <Banner title="Tony's Italian Bistro" subtitle=" main street, carrigaline, cork, ireland ">
         <Link to="/menu/" style={{ textDecoration: 'none' }}>
           <BannerButton style={{ margin: '2rem auto' }}>menu</BannerButton>
         </Link>
       </Banner>
     </HomeHeader>
     <QuickInfo />
-    <Menu />
     <Gallery />
+    <Menu />
   </Layout>
 )
 
