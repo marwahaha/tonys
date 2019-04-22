@@ -1,4 +1,3 @@
-
 import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
@@ -7,6 +6,7 @@ import { HomeHeader, Banner, BannerButton } from '../utils'
 import img from '../images/bcg/slices.jpg'
 import QuickInfo from '../components/HomePageComponents/QuickInfo'
 import Gallery from '../components/HomePageComponents/Gallery'
+import Menu from '../components/HomePageComponents/Menu'
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
@@ -18,6 +18,7 @@ const IndexPage = () => (
       </Banner>
     </HomeHeader>
     <QuickInfo />
+    <Menu />
     <Gallery />
   </Layout>
 )
