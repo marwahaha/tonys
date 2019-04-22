@@ -40,15 +40,15 @@ export default function Gallery() {
             <GalleryWrapper>
               <div className="item item-1">
                 <Img fluid={img1} />
-                <p className="info">awesome pizza</p>
+                <p className="info">perfect pizza</p>
               </div>
               <div className="item item-2">
                 <Img fluid={img2} />
-                <p className="info">awesome pork</p>
+                <p className="info">perfect pork</p>
               </div>
               <div className="item item-3">
                 <Img fluid={img3} />
-                <p className="info">awesome steak</p>
+                <p className="info">seroius steak</p>
               </div>
             </GalleryWrapper>
           </Section>

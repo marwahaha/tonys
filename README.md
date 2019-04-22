@@ -39,9 +39,9 @@ Run = git reset == to unstage a file in the staging area [example = git reset ap
 2 How to to switch between branch's,
 
 Run = git branch == Run = git checkout == local-environ-project-spec-setup to s-asenviron-project-spec-setup = to create a new branch,
-Run = git checkout == witch between local branche's
+Run = git checkout == switch between local branche's
 Run = git checkout master wh-teenviron-project-spec-setup = to switch to the feature branch,
-Run = git checkout master to switch between branch's,
+Run = git checkout "name of branch without qoute's" to switch between branch's,
 
 3 how to merge a new branch
 
