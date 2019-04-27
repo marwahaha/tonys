@@ -25,34 +25,24 @@ Migration of current domain name,
 
 ## Version Control Workflow
 
-When on Master Branch,
-Create a new branch,
-How to Switch branche's'
-How to Merge Branche's,
+git branch = will list all of the branch's
+git branch name-of-new-branch - will create a new branch
+git checkout  name-of-new-branch = give's us the abilty to use the new branch
+git add -A= Add's everthing to the staging area
+git commit -m "message" = this bring's the version beyond the staging area
 
-1 How to to create a new branch,
+### TO merge branch's
+The branch that you are working on must be a clean branch
+Checkout to master branch then with the master branch being active
+run 
+git merge name-of-branch-to-be-merged = merge's branchs
+git push origin master = To pull the master branch
 
-Run = git branch == to list all branche's,
-Run = git status == to check that I am on a working clean branch,
-Run = git reset == to unstage a file in the staging area [example = git reset app/index.html]
+OR->
 
-2 How to to switch between branch's,
-
-Run = git branch == Run = git checkout == local-environ-project-spec-setup to s-asenviron-project-spec-setup = to create a new branch,
-Run = git checkout == switch between local branche's
-Run = git checkout master wh-teenviron-project-spec-setup = to switch to the feature branch,
-Run = git checkout "name of branch without qoute's" to switch between branch's,
-
-3 how to merge a new branch
-
-Run = git checkout == branch to MERGE BRANCHE'S
--environ-project-spec-setup = to switch between local branche's
-Run = git checkout master r = when on master branch to MERGE BRANCHE'S
-Run = git merge {NAME OF BRANCH} at this stage the master branch is still checked out,
-
-4 how to push all branch's
-
-Run = git push origin master == to merge the change on github
+After to push an individul branch up to git hub we use
+git push origin name-of-branch-to-be-merged 
+then we must return to github & make the manual merge to keep the brnach's on the github cloud console
 
 ## UX
 
@@ -68,18 +58,20 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 #### The Home-Page
 - Main menu naviagation for the entire site
-- Mian logo for navigation & Aesthtics
+- Main logo for navigation & Aesthtics
 - Call to action on front main banner
 - Mian Menu to navigate to the menu page
-- Footer with a aafcebook socail link
+- Gallery section to induce the customers into looking into the menu
+- A taster of the menu to futher induce the customer into looking into the menu 
+- Footer with socail media links
 #### The About-Page
 - Information about the website & a Gallery of dish's
 - 
-#### The SEO-Page
--
--
+#### The Menu-Page
+- Information about the websites restaurant menu
+- 
 #### The Contact-Page
--
+- Information about the websites contactable number's
 -
 #### The Blog-Page
 -
@@ -93,11 +85,9 @@ This section is also where you would share links to any wireframes, mockups, dia
 #### The Back-End _VS_ The Front-End
 -
 -
- 
-
 ### Reasons for using gatsby
 
-The project uses **Gatsby** for the intial static site bioler plate setup, it's own CMS, webpack,     react.js & modern JavaScript,
+The project uses **Gatsby** for the intial static site bioler plate setup, it's own CMS, webpack,react.js & modern JavaScript,
 
 The advantages of using Gatsby are plentyfull, such as the use of NPM, the generation of the application with the Gatsby CLI, Gatsby also uses a package.json file in conjuntin with Node.js,
 
@@ -115,9 +105,62 @@ Highly fast pages's ceation & no routing of static pages
 
 The use of importing & exporting of projects gatsby libaries
 
-Inline CSS, Global CSS, & Component CS
+Inline CSS, Global CSS, & Component CSS
 
-### Reasons for using graphQL & graphQLY Data Aspects
+
+
+### Contentfull
+
+For the data infrastructure of this project I will need a frontend data Content platform provider Contentfull, this give's our dev team & in the future our customer the abailty to create data & use it on the forntend on any platform,
+
+Contentfull is a headless CMS , this provides data over a CDN , at the same time we can use this amazing GUI for CRUD operation if & when choose too,
+
+### Data & Contentfull
+
+#### This actions were carried out on the master branch
+
+Afetr the creation of the account on contentfull & deleting the example's I proceeded to make a new space & chose the free option , this supplied me with the space for 5000 records,
+
+I used Contentfulls GUI to assist on the craetion of my records,
+
+The content model & the content were accessed in the Contentfull's GUI,
+
+The content model will contian the data,
+
+The Content Model & the Content become the Content Model,
+
+#### The Content Model
+
+First I needed to create the name fields,
+Next I created the number fields of an interger with the tag of Price
+I then crearted a text field for the description of the main menu Item with the tag of ingradeints,
+
+The next field to be created was the image field
+
+I used the the pizza image from the github project for uploading, with the tag of Image,
+
+This process creates a json format of the data which I will pull in from our project,
+
+The next was to work on the content,
+
+I created the pancake content in the GUI with the relevant info & this uploaded the relevant image's,
+
+The next task was to install a gatsby image plugin for the reason of using Contentfulls API's service,
+
+I selected this in the settings tab in Contentfull's GUI , I then created a menu name & copy & pasted the API key,
+
+The API's Access Token & the Space ID  will be the main feature's of the implementaion of the retrievel of Data,
+
+#### Getting the data
+
+After I installed the plugin with the code in the command line bash terminal with 
+npm install -- save gatsby-source-contentful
+
+Next I used the formatted example Code from www.gatsby.org for the pligin configeration,
+
+In order to retrieve the data I then went to gatsby-config.js & placed the gatsby code for the contentful service,this is where the SpaceID & the access token came into play,
+
+
 
 
 
@@ -172,14 +215,48 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+The steps I took for deployment were as follows,
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+Step:1
+First was to to check if my project was executing from its master branch, the reason for this is because all branch's will eventually become the master branch,
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+After confirming the creation of a netlify account & a live repo for the version control of my project on github it was time to carry out the commands
+git init == to reintilaise my project
+git add -A == to add all the contents of project to the staging area
+git commit -m "message" == to commit all the content to the staging area
+git push origin master == to push the entire project to github
+
+Step:2
+Netlify
+To syncroinyse Netlify with my git repo, I searched for the repo & granted access for the PKI infrastructre to initiliase,
+
+After choosing the correct repo I seleted the option of Deploy Project
+
+Next I changed the temp domain name & tested my project on the live internet server
+
+This was the beginning of my continous develpoment & intergration workflow
+
+Step:3
+Hook's
+In order to simplify the uplaoding of feature's that we will be be creating I configured hook's on Netlify's GUI,
+
+This give's us the abilty to make chang'es to out database on contntfuill & have th change's occur in more or less real time,
+
+### env-var's
+In order to crate my env.var's, the value's needed to be in string format,
+
+This task conssits of two specifics, the first being the local configeration of the token & the space ID & the second atsk was to retrieve the env.var's formatted code from www.gatsby.js & plaed them in my Config.js file
+
+The natx task was to create a .env file in the overall project after that was the task of inclduing the .env file in the project's .gitignore file, this action configuerd the project to access the feature of !not pushing the api Key's to github server's
+
+I next enterd the API value's inot the .env file but not in a string, with pre made chosen varibale name's which will be accessed alter in the config.js file
+
+
+Next was to set up our var's on Netifly for security reasons's,I acheived this by entering the value's in the build & deploy option on Netifly's GUI,
+
+I next double checked everything for secuirty,
+
+I then once agian went through the step's of deployment & monitored the deploment on Netifly
 
 
 ## Credits
@@ -188,7 +265,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 - The text for section Y was 
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from Pixels
 
 ### Acknowledgements
 
