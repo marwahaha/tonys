@@ -27,7 +27,7 @@ Migration of current domain name,
 
 git branch = will list all of the branch's
 git branch name-of-new-branch - will create a new branch
-git checkout  name-of-new-branch = give's us the abilty to use the new branch
+git checkout  name-of-new-branch = give's us the ability to use the new branch
 git add -A= Add's everthing to the staging area
 git commit -m "message" = this bring's the version beyond the staging area
 
@@ -240,7 +240,7 @@ Step:3
 Hook's
 In order to simplify the uplaoding of feature's that we will be be creating I configured hook's on Netlify's GUI,
 
-This give's us the abilty to make chang'es to out database on contntfuill & have th change's occur in more or less real time,
+This give's us the ability to make chang'es to out database on contntfuill & have th change's occur in more or less real time,
 
 ### env-var's
 In order to crate my env.var's, the value's needed to be in string format,
